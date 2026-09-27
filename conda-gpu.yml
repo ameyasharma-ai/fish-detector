@@ -1,0 +1,18 @@
+name: yolov4-gpu
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - matplotlib
+  - cudatoolkit=11.2
+  - pip:
+      - tensorflow-gpu==2.10  # TensorFlow 2.10
+      - opencv-contrib-python
+      - lxml
+      - tqdm
+      - absl-py
+      - easydict
+      - pillow
+      - pytesseract
